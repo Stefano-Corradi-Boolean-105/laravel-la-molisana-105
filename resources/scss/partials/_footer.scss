@@ -1,0 +1,23 @@
+footer{
+    .top{
+      display: flex;
+      justify-content: space-between;
+      .logo{
+        width: 30%;
+      }
+      h4{
+        text-transform: uppercase;
+        margin-bottom: 15px;
+      }
+      li{
+        margin-bottom: 10px;
+        a{
+          color: $link-color;
+          font-size: .9rem;
+          &:hover{
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }

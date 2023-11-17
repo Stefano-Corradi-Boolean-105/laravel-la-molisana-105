@@ -1,0 +1,22 @@
+main{
+    min-height: 400px;
+    padding: 50px;
+    background-image: url('../img/bg-prods.jpg');
+    margin-bottom: 50px;
+    h1{
+      text-align: center;
+    }
+    .cards-wrapper{
+      display: flex;
+      flex-wrap: wrap;
+      padding: 50px 0;
+    }
+    .product-detail{
+        background-color: white;
+        padding: 30px;
+        text-align: center;
+        h4{
+            margin-bottom: 20px
+        }
+    }
+  }
